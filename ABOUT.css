@@ -1,0 +1,198 @@
+ .u-section-1 {
+  background-image: url("images/wallpaperbetter.com_1366x768.jpg");
+  background-position: 50% 50%;
+}
+
+.resolucion {
+  width: 99%;
+  text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+  .desktop {
+      display: none;
+  }
+  .tablet {
+      display: none;
+  }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .desktop {
+      display: none;
+  }
+  .movil {
+      display: none;
+  }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+  .tablet {
+      display: none;
+  }
+  .movil {
+      display: none;
+  }
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 88px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 500px;
+  }
+} .u-section-2 {
+  background-image: url("images/wallpaperbetter.com_1280x1024.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 651px;
+}
+
+.u-section-2 .u-group-1 {
+  width: 279px;
+  height: 279px;
+  margin: 32px auto 0 29px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px 23px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 23px 0 0;
+}
+
+.u-section-2 .u-text-2 {
+  margin: 4px 0 0;
+}
+
+.u-section-2 .u-shape-1 {
+  width: 287px;
+  height: 287px;
+  margin: -304px 143px 0 auto;
+}
+
+.u-section-2 .u-shape-2 {
+  width: 287px;
+  height: 287px;
+  margin: -265px 175px 0 auto;
+}
+
+.u-section-2 .u-text-3 {
+  font-size: 6rem;
+  font-style: normal;
+  margin: -196px 207px 0 auto;
+}
+
+.u-section-2 .u-group-2 {
+  width: 543px;
+  min-height: 228px;
+  height: auto;
+  margin: 131px auto 60px 268px;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-2 .u-text-4 {
+  margin: 28px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 537px;
+  }
+
+  .u-section-2 .u-group-1 {
+    min-height: 310px;
+    height: auto;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-top: -409px;
+  }
+
+  .u-section-2 .u-shape-2 {
+    margin-top: -161px;
+  }
+
+  .u-section-2 .u-group-2 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 411px;
+  }
+
+  .u-section-2 .u-group-2 {
+    margin-left: 177px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 308px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-right: 155px;
+  }
+
+  .u-section-2 .u-group-2 {
+    width: 540px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 194px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-top: -497px;
+    margin-right: 53px;
+  }
+
+  .u-section-2 .u-shape-2 {
+    margin-top: -47px;
+    margin-right: 53px;
+  }
+
+  .u-section-2 .u-text-3 {
+    font-size: 3.75rem;
+    margin-top: -285px;
+    margin-right: 98px;
+    margin-bottom: 41px;
+  }
+
+  .u-section-2 .u-group-2 {
+    width: 340px;
+  }
+}
